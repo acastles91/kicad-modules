@@ -1,0 +1,336 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L OpenSourceCelluloid:stepStick U?
+U 1 1 6069DFEB
+P 5850 3400
+F 0 "U?" H 5850 4065 50  0000 C CNN
+F 1 "stepStick" H 5850 3974 50  0000 C CNN
+F 2 "" H 5600 3400 50  0001 C CNN
+F 3 "" H 5600 3400 50  0001 C CNN
+	1    5850 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenSourceCelluloid:RN RN?
+U 1 1 6069E636
+P 5850 4400
+F 0 "RN?" H 5850 4815 50  0000 C CNN
+F 1 "RN" H 5850 4724 50  0000 C CNN
+F 2 "" H 5950 4500 50  0001 C CNN
+F 3 "" H 5950 4500 50  0001 C CNN
+	1    5850 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenSourceCelluloid:SPI JT
+U 1 1 6069EB59
+P 3800 3300
+F 0 "JT" H 3800 3765 50  0000 C CNN
+F 1 "SPI" H 3800 3674 50  0000 C CNN
+F 2 "" H 3800 3300 50  0001 C CNN
+F 3 "" H 3800 3300 50  0001 C CNN
+	1    3800 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpenSourceCelluloid:CLS JP
+U 1 1 6069F128
+P 3300 4700
+F 0 "JP" H 2922 4604 50  0000 R CNN
+F 1 "CLS" H 2922 4695 50  0000 R CNN
+F 2 "" H 3300 4700 50  0001 C CNN
+F 3 "" H 3300 4700 50  0001 C CNN
+	1    3300 4700
+	1    0    0    1   
+$EndComp
+$Comp
+L OpenSourceCelluloid:MS J
+U 1 1 6069F570
+P 7550 5100
+F 0 "J" H 7728 5396 50  0000 L CNN
+F 1 "MS" H 7728 5305 50  0000 L CNN
+F 2 "" H 7450 5200 50  0001 C CNN
+F 3 "" H 7450 5200 50  0001 C CNN
+	1    7550 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 606A2DCB
+P 4950 2850
+F 0 "R?" H 5020 2896 50  0000 L CNN
+F 1 "R" H 5020 2805 50  0000 L CNN
+F 2 "" V 4880 2850 50  0001 C CNN
+F 3 "~" H 4950 2850 50  0001 C CNN
+	1    4950 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 3000 4950 3000
+$Comp
+L ariadne-v3-cache:+3.3V #PWR?
+U 1 1 606A372A
+P 4950 2350
+F 0 "#PWR?" H 4950 2200 50  0001 C CNN
+F 1 "+3.3V" H 4965 2523 50  0000 C CNN
+F 2 "" H 4950 2350 50  0001 C CNN
+F 3 "" H 4950 2350 50  0001 C CNN
+	1    4950 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 2350 4950 2700
+Text GLabel 4450 3000 0    50   Input ~ 0
+EN
+Wire Wire Line
+	4450 3000 4950 3000
+Connection ~ 4950 3000
+Wire Wire Line
+	4100 3100 5300 3100
+Wire Wire Line
+	4100 3200 5300 3200
+Wire Wire Line
+	4100 3300 5300 3300
+Wire Wire Line
+	4100 3400 5300 3400
+Text GLabel 3100 3100 0    50   Input ~ 0
+_MOSI
+Wire Wire Line
+	3100 3100 3500 3100
+Text GLabel 3100 3200 0    50   Input ~ 0
+_SCK
+Wire Wire Line
+	3100 3200 3500 3200
+Text GLabel 3100 3300 0    50   Input ~ 0
+_RX
+Wire Wire Line
+	3100 3300 3500 3300
+Text GLabel 3100 3400 0    50   Input ~ 0
+_MISO
+Wire Wire Line
+	3100 3400 3500 3400
+Text GLabel 4700 3500 0    50   Input ~ 0
+SLP
+Wire Wire Line
+	4700 3500 5300 3500
+Text GLabel 4450 3600 0    50   Input ~ 0
+STP
+Wire Wire Line
+	4450 3600 5300 3600
+Text GLabel 4050 3700 0    50   Input ~ 0
+DIR
+Wire Wire Line
+	4050 3700 5300 3700
+Text GLabel 7000 5000 0    50   Input ~ 0
+SLP
+Wire Wire Line
+	7000 5000 7250 5000
+$Comp
+L ariadne-v3-cache:+3.3V #PWR?
+U 1 1 606A8386
+P 6950 4600
+F 0 "#PWR?" H 6950 4450 50  0001 C CNN
+F 1 "+3.3V" H 6965 4773 50  0000 C CNN
+F 2 "" H 6950 4600 50  0001 C CNN
+F 3 "" H 6950 4600 50  0001 C CNN
+	1    6950 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 4600 6950 4700
+Wire Wire Line
+	6950 4900 7250 4900
+Wire Wire Line
+	7250 4800 6950 4800
+Connection ~ 6950 4800
+Wire Wire Line
+	6950 4800 6950 4900
+Wire Wire Line
+	7250 4700 6950 4700
+Connection ~ 6950 4700
+Wire Wire Line
+	6950 4700 6950 4800
+$Comp
+L OpenSourceCelluloid:ConnectorMotorUpdated J?
+U 1 1 606AB456
+P 7200 3200
+F 0 "J?" H 7278 3096 50  0000 L CNN
+F 1 "ConnectorMotorUpdated" H 7278 3005 50  0000 L CNN
+F 2 "" H 7200 3200 50  0001 C CNN
+F 3 "" H 7200 3200 50  0001 C CNN
+	1    7200 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3200 7000 3200
+Wire Wire Line
+	7000 3300 6400 3300
+Wire Wire Line
+	6400 3400 7000 3400
+Wire Wire Line
+	7000 3500 6400 3500
+$Comp
+L power:VSS #PWR?
+U 1 1 606AFE24
+P 7100 2650
+F 0 "#PWR?" H 7100 2500 50  0001 C CNN
+F 1 "VSS" H 7115 2823 50  0000 C CNN
+F 2 "" H 7100 2650 50  0001 C CNN
+F 3 "" H 7100 2650 50  0001 C CNN
+	1    7100 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 606B33B5
+P 7550 2950
+F 0 "#PWR?" H 7550 2700 50  0001 C CNN
+F 1 "GND" H 7555 2777 50  0000 C CNN
+F 2 "" H 7550 2950 50  0001 C CNN
+F 3 "" H 7550 2950 50  0001 C CNN
+	1    7550 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3000 6400 2650
+Wire Wire Line
+	6400 2650 6650 2650
+$Comp
+L Device:CP1 C?
+U 1 1 606B4A34
+P 6650 2800
+F 0 "C?" H 6765 2846 50  0000 L CNN
+F 1 "CP1" H 6765 2755 50  0000 L CNN
+F 2 "" H 6650 2800 50  0001 C CNN
+F 3 "~" H 6650 2800 50  0001 C CNN
+	1    6650 2800
+	1    0    0    -1  
+$EndComp
+Connection ~ 6650 2650
+Wire Wire Line
+	6650 2650 7100 2650
+Wire Wire Line
+	6650 2950 7550 2950
+Wire Wire Line
+	6400 3100 6650 3100
+Wire Wire Line
+	6650 3100 6650 2950
+Connection ~ 6650 2950
+$Comp
+L ariadne-v3-cache:+3.3V #PWR?
+U 1 1 606B8D7B
+P 8350 3600
+F 0 "#PWR?" H 8350 3450 50  0001 C CNN
+F 1 "+3.3V" H 8365 3773 50  0000 C CNN
+F 2 "" H 8350 3600 50  0001 C CNN
+F 3 "" H 8350 3600 50  0001 C CNN
+	1    8350 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3600 8350 3600
+$Comp
+L power:GND #PWR?
+U 1 1 606BAA19
+P 7000 3700
+F 0 "#PWR?" H 7000 3450 50  0001 C CNN
+F 1 "GND" H 7005 3527 50  0000 C CNN
+F 2 "" H 7000 3700 50  0001 C CNN
+F 3 "" H 7000 3700 50  0001 C CNN
+	1    7000 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3700 7000 3700
+Text GLabel 5300 4350 0    50   Input ~ 0
+_DIR
+Text GLabel 5300 4450 0    50   Input ~ 0
+_STP
+Text GLabel 5300 4550 0    50   Input ~ 0
+_EN
+Wire Wire Line
+	5300 4350 5550 4350
+Wire Wire Line
+	5300 4450 5550 4450
+Wire Wire Line
+	5300 4550 5550 4550
+Text GLabel 6450 4350 2    50   Input ~ 0
+DIR
+Text GLabel 6450 4450 2    50   Input ~ 0
+STP
+Text GLabel 6450 4550 2    50   Input ~ 0
+EN
+Wire Wire Line
+	6450 4550 6150 4550
+Wire Wire Line
+	6150 4450 6450 4450
+Wire Wire Line
+	6450 4350 6150 4350
+NoConn ~ 6150 4250
+NoConn ~ 5550 4250
+Text GLabel 3700 4400 2    50   Input ~ 0
+DIR
+Text GLabel 3700 4500 2    50   Input ~ 0
+STP
+Text GLabel 3700 4600 2    50   Input ~ 0
+EN
+$Comp
+L power:GND #PWR?
+U 1 1 606C3C56
+P 4000 4700
+F 0 "#PWR?" H 4000 4450 50  0001 C CNN
+F 1 "GND" H 4005 4527 50  0000 C CNN
+F 2 "" H 4000 4700 50  0001 C CNN
+F 3 "" H 4000 4700 50  0001 C CNN
+	1    4000 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L ariadne-v3-cache:+3.3V #PWR?
+U 1 1 606C8F7A
+P 4300 4800
+F 0 "#PWR?" H 4300 4650 50  0001 C CNN
+F 1 "+3.3V" H 4315 4973 50  0000 C CNN
+F 2 "" H 4300 4800 50  0001 C CNN
+F 3 "" H 4300 4800 50  0001 C CNN
+	1    4300 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 4700 3500 4700
+Wire Wire Line
+	3500 4800 4300 4800
+Wire Wire Line
+	3500 4600 3700 4600
+Wire Wire Line
+	3500 4500 3700 4500
+Wire Wire Line
+	3500 4400 3700 4400
+$Comp
+L power:VSS #PWR?
+U 1 1 606CD9C1
+P 4500 4900
+F 0 "#PWR?" H 4500 4750 50  0001 C CNN
+F 1 "VSS" H 4515 5073 50  0000 C CNN
+F 2 "" H 4500 4900 50  0001 C CNN
+F 3 "" H 4500 4900 50  0001 C CNN
+	1    4500 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 4900 3500 4900
+$EndSCHEMATC

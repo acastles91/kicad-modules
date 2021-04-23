@@ -1,0 +1,22 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 7800 3200 1550 1050
+U 606E1827
+F0 "Sheet606E1826" 50
+F1 "file606E1826.sch" 50
+$EndSheet
+$EndSCHEMATC

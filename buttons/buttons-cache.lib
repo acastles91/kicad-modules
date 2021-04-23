@@ -1,0 +1,64 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# OpenSourceCelluloid_K12AB-Switch
+#
+DEF OpenSourceCelluloid_K12AB-Switch S 0 40 Y Y 1 F N
+F0 "S" 0 350 50 H V C CNN
+F1 "OpenSourceCelluloid_K12AB-Switch" 0 200 50 H V C CNN
+F2 "knownParts:K12AB-Switch" 0 -200 50 H V C CNN
+F3 "" 0 -200 50 H I C CNN
+DRAW
+S -150 100 150 -100 0 1 0 N
+X A 1 -250 0 100 R 50 50 1 1 I
+X B 2 250 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# ariadne-v3-cache_+3.3V
+#
+DEF ariadne-v3-cache_+3.3V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "ariadne-v3-cache_+3.3V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# upuaut_2Nils-rescue_GND-power
+#
+DEF upuaut_2Nils-rescue_GND-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "upuaut_2Nils-rescue_GND-power" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# upuaut_2Nils-rescue_R-Device
+#
+DEF upuaut_2Nils-rescue_R-Device R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "upuaut_2Nils-rescue_R-Device" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

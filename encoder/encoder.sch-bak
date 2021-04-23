@@ -1,0 +1,188 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L upuaut_2Nils-rescue:R-Device R?
+U 1 1 60753AD5
+P 3500 3700
+F 0 "R?" V 3707 3700 50  0000 C CNN
+F 1 "10K" V 3600 3700 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 3430 3700 50  0001 C CNN
+F 3 "~" H 3500 3700 50  0001 C CNN
+	1    3500 3700
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3850 3700 1    50   Input ~ 0
+_CHANNEL-A
+$Comp
+L upuaut_2Nils-rescue:C-Device C?
+U 1 1 60753ADC
+P 4050 3550
+F 0 "C?" H 4165 3596 50  0000 L CNN
+F 1 "0.01uF" H 4165 3505 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 4088 3400 50  0001 C CNN
+F 3 "~" H 4050 3550 50  0001 C CNN
+	1    4050 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L upuaut_2Nils-rescue:C-Device C?
+U 1 1 60753AE2
+P 4050 4050
+F 0 "C?" H 4165 4096 50  0000 L CNN
+F 1 "0.01uF" H 4165 4005 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 4088 3900 50  0001 C CNN
+F 3 "~" H 4050 4050 50  0001 C CNN
+	1    4050 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L upuaut_2Nils-rescue:GND-power #PWR?
+U 1 1 60753AE8
+P 4050 3400
+F 0 "#PWR?" H 4050 3150 50  0001 C CNN
+F 1 "GND" H 4055 3227 50  0000 C CNN
+F 2 "" H 4050 3400 50  0001 C CNN
+F 3 "" H 4050 3400 50  0001 C CNN
+	1    4050 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L upuaut_2Nils-rescue:GND-power #PWR?
+U 1 1 60753AEE
+P 4050 4200
+F 0 "#PWR?" H 4050 3950 50  0001 C CNN
+F 1 "GND" H 4050 4050 50  0000 C CNN
+F 2 "" H 4050 4200 50  0001 C CNN
+F 3 "" H 4050 4200 50  0001 C CNN
+	1    4050 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 3700 3350 3700
+Wire Wire Line
+	3650 3700 4050 3700
+Connection ~ 4050 3700
+$Comp
+L upuaut_2Nils-rescue:GND-power #PWR?
+U 1 1 60753AF7
+P 4100 3800
+F 0 "#PWR?" H 4100 3550 50  0001 C CNN
+F 1 "GND" V 4105 3672 50  0000 R CNN
+F 2 "" H 4100 3800 50  0001 C CNN
+F 3 "" H 4100 3800 50  0001 C CNN
+	1    4100 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L upuaut_2Nils-rescue:R-Device R?
+U 1 1 60753AFE
+P 3400 3900
+F 0 "R?" V 3607 3900 50  0000 C CNN
+F 1 "10K" V 3500 3900 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 3330 3900 50  0001 C CNN
+F 3 "~" H 3400 3900 50  0001 C CNN
+	1    3400 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3250 3900 3100 3900
+$Comp
+L knownParts:PEC12R-ENCODER U?
+U 1 1 60753B05
+P 4700 3600
+F 0 "U?" H 4825 3725 50  0000 C CNN
+F 1 "PEC12R-ENCODER" H 4825 3634 50  0000 C CNN
+F 2 "knownParts:PEC12R-Encoder" H 4700 3600 50  0001 C CNN
+F 3 "" H 4700 3600 50  0001 C CNN
+	1    4700 3600
+	1    0    0    -1  
+$EndComp
+Text GLabel 6050 3700 2    50   Input ~ 0
+_ENCO-BUTTON
+Wire Wire Line
+	4050 3900 3550 3900
+Connection ~ 4050 3900
+Wire Wire Line
+	4050 3700 4100 3700
+Wire Wire Line
+	4050 3900 4100 3900
+$Comp
+L upuaut_2Nils-rescue:R-Device R?
+U 1 1 60753B10
+P 5800 3550
+F 0 "R?" V 6007 3550 50  0000 C CNN
+F 1 "10K" V 5900 3550 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5730 3550 50  0001 C CNN
+F 3 "~" H 5800 3550 50  0001 C CNN
+	1    5800 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L upuaut_2Nils-rescue:GND-power #PWR?
+U 1 1 60753B16
+P 5800 3400
+F 0 "#PWR?" H 5800 3150 50  0001 C CNN
+F 1 "GND" H 5800 3250 50  0000 C CNN
+F 2 "" H 5800 3400 50  0001 C CNN
+F 3 "" H 5800 3400 50  0001 C CNN
+	1    5800 3400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6050 3700 5800 3700
+Wire Wire Line
+	5800 3700 5550 3700
+Connection ~ 5800 3700
+Text Notes 4650 3200 0    50   ~ 0
+Encoder\n
+$Comp
+L upuaut_2Nils-rescue:+5V-power #PWR?
+U 1 1 60753B20
+P 3150 3700
+F 0 "#PWR?" H 3150 3550 50  0001 C CNN
+F 1 "+5V" H 3165 3873 50  0000 C CNN
+F 2 "" H 3150 3700 50  0001 C CNN
+F 3 "" H 3150 3700 50  0001 C CNN
+	1    3150 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L upuaut_2Nils-rescue:+5V-power #PWR?
+U 1 1 60753B26
+P 3100 3900
+F 0 "#PWR?" H 3100 3750 50  0001 C CNN
+F 1 "+5V" H 3115 4073 50  0000 C CNN
+F 2 "" H 3100 3900 50  0001 C CNN
+F 3 "" H 3100 3900 50  0001 C CNN
+	1    3100 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L upuaut_2Nils-rescue:+5V-power #PWR?
+U 1 1 60753B2C
+P 5650 3800
+F 0 "#PWR?" H 5650 3650 50  0001 C CNN
+F 1 "+5V" H 5665 3973 50  0000 C CNN
+F 2 "" H 5650 3800 50  0001 C CNN
+F 3 "" H 5650 3800 50  0001 C CNN
+	1    5650 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 3800 5550 3800
+Text GLabel 3700 3900 3    50   Input ~ 0
+CHANNEL-B
+$EndSCHEMATC
