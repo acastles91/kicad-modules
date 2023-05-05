@@ -1,0 +1,172 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "SJ-43616-SMT" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "J" (id 0) (at -7.62732 10.6783 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "SJ-43616-SMT" (id 1) (at -7.62382 -9.65684 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "CUI_SJ-43616-SMT" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendation" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "CUI INC" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "REV" "1.05" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "SJ-43616-SMT_0_0"
+      (polyline
+        (pts (xy 7.62 7.62) (xy -5.0165 7.62)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -5.0165 7.62) (xy -5.0165 3.683)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -5.0165 3.683) (xy -4.1275 3.683)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -4.1275 3.683) (xy -4.1275 -2.667)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -4.1275 -2.667) (xy -5.9055 -2.667)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -5.9055 -2.667) (xy -5.9055 3.683)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -5.9055 3.683) (xy -5.0165 3.683)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 7.62 -7.62) (xy 7.62 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 7.62 2.54) (xy 7.62 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 7.62 5.08) (xy 7.62 7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 7.62 7.62) (xy 7.62 10.16)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 7.62 10.16) (xy -7.62 10.16)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -7.62 10.16) (xy -7.62 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -7.62 -7.62) (xy 7.62 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 7.62 0.0) (xy 2.54 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 0.0) (xy 2.54 1.524)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts
+          (xy 2.032 1.524)
+          (xy 3.048 1.524)
+          (xy 2.54 2.54)
+          (xy 2.032 1.524)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy 7.62 -2.54) (xy 2.54 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 -2.54) (xy 2.54 -4.064)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts
+          (xy 2.032 -4.064)
+          (xy 3.048 -4.064)
+          (xy 2.54 -5.08)
+          (xy 2.032 -4.064)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy 7.62 2.54) (xy 0.635 2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.635 2.54) (xy -0.3175 1.27)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -0.3175 1.27) (xy -1.27 2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 8.255 -5.08) (xy 1.651 -5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.651 -5.08) (xy 0.6985 -3.81)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.6985 -3.81) (xy -0.254 -5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 7.62 5.08) (xy -1.651 5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.651 5.08) (xy -2.6035 3.81)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -2.6035 3.81) (xy -3.556 5.08)) (stroke (width 0.1524))
+      )
+      (pin passive line (at 12.7 7.62 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 -5.08 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 2.54 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 0.0 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 -2.54 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 5.08 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
